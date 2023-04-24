@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,17 +15,23 @@
   </head>
   <body>
     <!-- header-section -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="nav">
+        <a class="header-logo" href="./index.html">WebStudio</a>
+        <ul class="list header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="">Studio</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="">Portfolio</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="list">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
@@ -26,14 +39,14 @@
     </header>
     <main>
       <!-- hero -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero-section">
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="btn">Order Service</button>
       </section>
       <!-- about-section -->
       <section>
-        <h2 hidden>feature</h2>
-        <ul>
+        <h2 hidden class="title">feature</h2>
+        <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -66,8 +79,8 @@
       </section>
       <!-- portfolio -->
       <section>
-        <h2>What are we doing</h2>
-        <ul>
+        <h2 class="title">What are we doing</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/about/rectangle71.jpg"
@@ -96,8 +109,8 @@
       </section>
       <!-- team-section -->
       <section>
-        <h2>Our Team</h2>
-        <ul>
+        <h2 class="title">Our Team</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/team/mark-guerrero.jpg"
